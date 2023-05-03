@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+  /* align-items: center;
+  justify-content: center;
+  height: 100%; */
+}
+.sidebar {
+  width: 15%;
+  min-height: 100vh;
+  background-color: rgb(5, 5, 114);
+  position: relative;
+}
+.main {
+  width: 85%;
+  background-color: rgb(227, 217, 217);
+}
+.header {
+  background-color: rgb(5, 5, 114);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 20px;
+  color: white;
+  padding: 10px;
+}
+.cardssection h3 {
+  color: grey;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+.card {
+  background-color: rgb(207, 188, 164);
+  border-radius: 5px;
+  padding: 10px;
+  width: 20%;
+  height: auto;
+  margin: 10px;
+}
+.projectssection {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 100px;
+}
+.recentprojects {
+  width: 45%;
+  /* border: 2px solid red; */
+  margin: 10px;
+}
+.userslist {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 10px;
+  width: 45%;
+  /* border: 2px solid black; */
+}
+.projectslist {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.addcard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.projectcard {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgb(35, 28, 42);
+  color: white;
+  border: none;
+  height: 25px;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+}
+.userscard {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgb(40, 6, 72);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  height: 25px;
+  margin-top: 10px;
+  padding: 10px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(5, 5, 114);
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 85%;
+    padding: 15px;
+
+}
